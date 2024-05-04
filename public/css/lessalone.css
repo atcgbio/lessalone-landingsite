@@ -1591,10 +1591,7 @@ blockquote::before {
     min-width: inherit;
     min-height: inherit;
   }
-  .navbar-brand small {
-    white-space: normal;
-    width: 200px;
-  }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -1623,6 +1620,11 @@ blockquote::before {
     padding-bottom: 30px;
   }
 
+   .navbar-brand small {
+    white-space: normal;
+    width: 200px;
+  }
+  
   .carousel-control-next-icon, 
   .carousel-control-prev-icon {
     width: 45px;
